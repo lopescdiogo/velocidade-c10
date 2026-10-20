@@ -259,8 +259,8 @@ function graficos(){
     {label:'LCP (s)',data:pts(est,'lcp_s'),borderColor:T,backgroundColor:T,borderWidth:2,pointRadius:4,tension:.25,spanGaps:true,yAxisID:'y',_d:1},
     {label:'TBT (ms)',data:pts(est,'tbt_ms'),borderColor:P,backgroundColor:P,borderWidth:2,pointRadius:4,tension:.25,spanGaps:true,yAxisID:'y1',borderDash:[5,4]}]},
     options:Object.assign({},common,{scales:{
-      y:{position:'left',beginAtZero:true,grid:{color:b.gr},border:{display:false},ticks:{callback:function(v){return nf(v,1)+' s'}}},
-      y1:{position:'right',beginAtZero:true,grid:{display:false},border:{display:false},ticks:{callback:function(v){return nf(v,0)+' ms'}}},
+      y:{position:'left',beginAtZero:true,grid:{color:b.gr},border:{display:false},ticks:{maxTicksLimit:5,callback:function(v){return v.toLocaleString('pt-BR',{maximumFractionDigits:1})+' s'}}},
+      y1:{position:'right',beginAtZero:true,grid:{display:false},border:{display:false},ticks:{maxTicksLimit:5,callback:function(v){return nf(v,0)+' ms'}}},
       x:{grid:{display:false},border:{color:b.gr}}}})});
 }
 function tabela(){
