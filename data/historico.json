@@ -1,0 +1,122 @@
+{
+ "url": "https://conteiner10.com.br",
+ "atualizado": "2026-10-20T18:45:30-03:00",
+ "medicoes": [
+  {
+   "data": "2026-10-07",
+   "hora": null,
+   "mobile": {
+    "nota": 14,
+    "fcp_s": null,
+    "lcp_s": null,
+    "tbt_ms": null,
+    "cls": null,
+    "si_s": null,
+    "campo": null,
+    "oportunidades": []
+   },
+   "analise": {
+    "mobile": [
+     "No celular, esta é a primeira medição: nota 14."
+    ],
+    "desktop": [],
+    "resumo": "No celular, esta é a primeira medição: nota 14."
+   }
+  },
+  {
+   "data": "2026-10-20",
+   "hora": "17:15",
+   "mobile": {
+    "nota": 15,
+    "fcp_s": null,
+    "lcp_s": 14.7,
+    "tbt_ms": 1730,
+    "cls": 0.286,
+    "si_s": 21.1,
+    "campo": null,
+    "oportunidades": []
+   },
+   "desktop": {
+    "nota": 37,
+    "fcp_s": null,
+    "lcp_s": 3.0,
+    "tbt_ms": 370,
+    "cls": 0.443,
+    "si_s": 9.7,
+    "campo": null,
+    "oportunidades": []
+   },
+   "analise": {
+    "mobile": [
+     "A nota ficou estável: 14 para 15."
+    ],
+    "desktop": [
+     "No computador, esta é a primeira medição: nota 37."
+    ],
+    "resumo": "No celular a nota ficou estável em 15. No computador, esta é a primeira medição: nota 37."
+   }
+  },
+  {
+   "data": "2026-10-20",
+   "hora": "18:45",
+   "mobile": {
+    "nota": 26,
+    "fcp_s": 5.73,
+    "lcp_s": 16.28,
+    "tbt_ms": 626,
+    "cls": 0.282,
+    "si_s": 22.04,
+    "campo": {
+     "categoria": "SLOW",
+     "lcp_s": 6.49,
+     "cls": 0.4,
+     "inp_ms": 322
+    },
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 8.63
+     },
+     {
+      "titulo": "Reduza o CSS não usado",
+      "economia_s": 0.15
+     }
+    ]
+   },
+   "desktop": {
+    "nota": 37,
+    "fcp_s": 0.88,
+    "lcp_s": 3.05,
+    "tbt_ms": 350,
+    "cls": 0.448,
+    "si_s": 9.51,
+    "campo": null,
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 0.57
+     }
+    ]
+   },
+   "analise": {
+    "mobile": [
+     "A nota subiu de 15 para 26 (+11).",
+     "O LCP piorou: de 14,7 s para 16,3 s.",
+     "O Speed Index piorou: de 21,1 s para 22,0 s.",
+     "O TBT melhorou: de 1730 ms para 626 ms.",
+     "O CLS ficou estável (0,282).",
+     "Maior ganho: TBT (1104 ms a menos).",
+     "Maior perda: LCP (1,6 s a mais)."
+    ],
+    "desktop": [
+     "A nota ficou estável: 37 para 37.",
+     "O LCP ficou estável (3,0 s).",
+     "O Speed Index ficou estável (9,5 s).",
+     "O TBT ficou estável (350 ms).",
+     "O CLS ficou estável (0,448)."
+    ],
+    "resumo": "No celular a nota subiu de 15 para 26 (+11). O TBT caiu 1104 ms; o LCP piorou. No computador a nota ficou estável em 37."
+   }
+  }
+ ]
+}
