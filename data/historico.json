@@ -1,6 +1,6 @@
 {
  "url": "https://conteiner10.com.br",
- "atualizado": "2026-10-26T11:01:32-03:00",
+ "atualizado": "2026-10-29T07:51:40-03:00",
  "medicoes": [
   {
    "data": "2026-10-07",
@@ -182,6 +182,70 @@
      "Maior perda: TBT (169 ms a mais)."
     ],
     "resumo": "No celular a nota caiu de 26 para 19 (-7). O FCP caiu 1,4 s; o TBT piorou. No computador a nota caiu de 37 para 34 (-3). O LCP caiu 0,7 s; o TBT piorou."
+   }
+  },
+  {
+   "data": "2026-10-29",
+   "hora": "07:51",
+   "mobile": {
+    "nota": 40,
+    "fcp_s": 1.7,
+    "lcp_s": 13.72,
+    "tbt_ms": 446,
+    "cls": 0.286,
+    "si_s": 8.82,
+    "campo": {
+     "categoria": "SLOW",
+     "lcp_s": 6.18,
+     "cls": 0.73,
+     "inp_ms": 328
+    },
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 3.47
+     },
+     {
+      "titulo": "Reduza o CSS não usado",
+      "economia_s": 0.3
+     }
+    ]
+   },
+   "desktop": {
+    "nota": 68,
+    "fcp_s": 0.41,
+    "lcp_s": 2.62,
+    "tbt_ms": 241,
+    "cls": 0.017,
+    "si_s": 3.82,
+    "campo": null,
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 0.61
+     }
+    ]
+   },
+   "analise": {
+    "mobile": [
+     "A nota subiu de 19 para 40 (+21).",
+     "O LCP melhorou: de 15,6 s para 13,7 s.",
+     "O FCP melhorou: de 4,3 s para 1,7 s.",
+     "O Speed Index melhorou: de 23,1 s para 8,8 s.",
+     "O TBT melhorou: de 1126 ms para 446 ms.",
+     "O CLS ficou estável (0,286).",
+     "Maior ganho: Speed Index (14,3 s a menos)."
+    ],
+    "desktop": [
+     "A nota subiu de 34 para 68 (+34).",
+     "O LCP ficou estável (2,6 s).",
+     "O FCP melhorou: de 1,0 s para 0,4 s.",
+     "O Speed Index melhorou: de 10,0 s para 3,8 s.",
+     "O TBT melhorou: de 519 ms para 241 ms.",
+     "O CLS melhorou: de 0,443 para 0,017.",
+     "Maior ganho: CLS (0,426 a menos)."
+    ],
+    "resumo": "No celular a nota subiu de 19 para 40 (+21). O Speed Index caiu 14,3 s. No computador a nota subiu de 34 para 68 (+34). O CLS melhorou."
    }
   }
  ]
