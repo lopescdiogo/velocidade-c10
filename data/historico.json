@@ -1,6 +1,6 @@
 {
  "url": "https://conteiner10.com.br",
- "atualizado": "2026-11-05T07:00:05-03:00",
+ "atualizado": "2026-11-09T11:01:30-03:00",
  "medicoes": [
   {
    "data": "2026-10-07",
@@ -316,6 +316,75 @@
      "Maior perda: TBT (331 ms a mais)."
     ],
     "resumo": "No celular a nota caiu de 40 para 29 (-11). O LCP caiu 1,2 s; o TBT piorou. No computador a nota caiu de 68 para 54 (-14). O Speed Index caiu 0,9 s; o TBT piorou."
+   }
+  },
+  {
+   "data": "2026-11-09",
+   "hora": "11:01",
+   "mobile": {
+    "nota": 23,
+    "fcp_s": 1.06,
+    "lcp_s": 13.78,
+    "tbt_ms": 2062,
+    "cls": 0.286,
+    "si_s": 10.42,
+    "campo": {
+     "categoria": "SLOW",
+     "lcp_s": 5.25,
+     "cls": 0.74,
+     "inp_ms": 304
+    },
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 3.63
+     },
+     {
+      "titulo": "Reduza o CSS não usado",
+      "economia_s": 0.3
+     }
+    ]
+   },
+   "desktop": {
+    "nota": 44,
+    "fcp_s": 0.29,
+    "lcp_s": 3.13,
+    "tbt_ms": 1254,
+    "cls": 0.003,
+    "si_s": 4.5,
+    "campo": null,
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 0.54
+     },
+     {
+      "titulo": "Reduza o CSS não usado",
+      "economia_s": 0.04
+     }
+    ]
+   },
+   "analise": {
+    "mobile": [
+     "A nota caiu de 29 para 23 (-6).",
+     "O LCP piorou: de 12,6 s para 13,8 s.",
+     "O FCP ficou estável (1,1 s).",
+     "O Speed Index ficou estável (10,4 s).",
+     "O TBT piorou: de 1256 ms para 2062 ms.",
+     "O CLS piorou: de 0,242 para 0,286.",
+     "Maior perda: TBT (806 ms a mais)."
+    ],
+    "desktop": [
+     "A nota caiu de 54 para 44 (-10).",
+     "O LCP piorou: de 2,8 s para 3,1 s.",
+     "O FCP ficou estável (0,3 s).",
+     "O Speed Index piorou: de 2,9 s para 4,5 s.",
+     "O TBT piorou: de 572 ms para 1254 ms.",
+     "O CLS melhorou: de 0,037 para 0,003.",
+     "Maior ganho: CLS (0,034 a menos).",
+     "Maior perda: TBT (682 ms a mais)."
+    ],
+    "resumo": "No celular a nota caiu de 29 para 23 (-6). O TBT piorou. No computador a nota caiu de 54 para 44 (-10). O CLS melhorou; o TBT piorou."
    }
   }
  ]
