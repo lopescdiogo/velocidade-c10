@@ -1,6 +1,6 @@
 {
  "url": "https://conteiner10.com.br",
- "atualizado": "2026-11-23T11:04:14-03:00",
+ "atualizado": "2026-11-26T07:00:03-03:00",
  "medicoes": [
   {
    "data": "2026-10-07",
@@ -595,6 +595,72 @@
      "Maior perda: CLS (0,072 a mais)."
     ],
     "resumo": "No celular a nota caiu de 34 para 20 (-14). O Speed Index caiu 0,8 s; o CLS piorou. No computador a nota subiu de 50 para 73 (+23). O TBT caiu 721 ms; o CLS piorou."
+   }
+  },
+  {
+   "data": "2026-11-26",
+   "hora": "07:00",
+   "mobile": {
+    "nota": 26,
+    "fcp_s": 1.06,
+    "lcp_s": 13.88,
+    "tbt_ms": 914,
+    "cls": 0.429,
+    "si_s": 10.02,
+    "campo": {
+     "categoria": "SLOW",
+     "lcp_s": 3.84,
+     "cls": 0.66,
+     "inp_ms": 272
+    },
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 3.62
+     },
+     {
+      "titulo": "Reduza o CSS não usado",
+      "economia_s": 0.15
+     }
+    ]
+   },
+   "desktop": {
+    "nota": 62,
+    "fcp_s": 0.29,
+    "lcp_s": 2.73,
+    "tbt_ms": 363,
+    "cls": 0.003,
+    "si_s": 2.82,
+    "campo": null,
+    "oportunidades": [
+     {
+      "titulo": "Reduza o JavaScript não usado",
+      "economia_s": 0.58
+     }
+    ]
+   },
+   "analise": {
+    "mobile": [
+     "A nota subiu de 20 para 26 (+6).",
+     "O LCP piorou: de 12,7 s para 13,9 s.",
+     "O FCP ficou estável (1,1 s).",
+     "O Speed Index piorou: de 9,4 s para 10,0 s.",
+     "O TBT melhorou: de 1538 ms para 914 ms.",
+     "O CLS melhorou: de 0,451 para 0,429.",
+     "Maior ganho: TBT (624 ms a menos).",
+     "Maior perda: LCP (1,2 s a mais)."
+    ],
+    "desktop": [
+     "A nota caiu de 73 para 62 (-11).",
+     "O LCP ficou estável (2,7 s).",
+     "O FCP ficou estável (0,3 s).",
+     "O Speed Index ficou estável (2,8 s).",
+     "O TBT piorou: de 188 ms para 363 ms.",
+     "O CLS melhorou: de 0,075 para 0,003.",
+     "Maior ganho: CLS (0,072 a menos).",
+     "Maior perda: TBT (175 ms a mais)."
+    ],
+    "resumo": "No celular a nota subiu de 20 para 26 (+6). O TBT caiu 624 ms; o LCP piorou. No computador a nota caiu de 73 para 62 (-11). O CLS melhorou; o TBT piorou."
    }
   }
  ]
